@@ -7,10 +7,12 @@ This code creates a simple user management form for an online examination system
 
 HTML Structure
 HTML Document Setup:
+
 The document begins with a standard HTML structure including a <head> section for metadata and linking CSS files, and a <body> section for content.
 The page title is "Online Examination - User Management".
 
 CSS Styling:
+
 Bootstrap is used for general styles and responsiveness.
 A custom CSS file, styles.css, is linked for additional styling.
 Form Design:
@@ -25,6 +27,7 @@ A "Submit" button is styled using Bootstrap classes.
 
 JavaScript Functionality
 Event Listener:
+
 When the page loads, JavaScript adds a submit event listener to the form.
 Form Validation:
 When the form is submitted, JavaScript checks its validity:
@@ -35,7 +38,8 @@ The form data is converted to a JavaScript object and logged to the console.
 A success message ("User data submitted successfully!") is displayed to the user.
 The form is reset, and validation highlights are cleared.
 
-Key Features
+Key Features:
+
 Bootstrap Integration: Ensures a responsive and visually appealing layout.
 Client-Side Validation: Provides immediate feedback to users without submitting the form to the server.
 Form Reset: Clears the form after successful submission.
